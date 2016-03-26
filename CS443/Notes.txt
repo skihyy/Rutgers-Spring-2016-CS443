@@ -1,0 +1,19 @@
+1 Graph - the number of connections between 2 neuron is 1 - weight
+2 Some neuron are specific in representing numbers - rate based
+	1) Some neuron are specific in integer
+	2) Some are specific in double
+	3) All inputs should be considered as String, then converted to double
+3 3 neorons for representing numbers - but only 2 numbers are used in the 1st version
+4 No encoding neuron
+5 1 comparing neuron which will also decode the message
+6 Weight are written in the file
+
+NOTE: The code is written in the MVC structure but there are differences between normal MVC and this one. 
+It does not used distributed way.
+
+Weight-file structure:
+	#1 total number of neurons
+	#2 - n weight
+	
+NOTE: LACK INPUT MECHANISM!!! NOW HARD CODING!!!
+NOTE: WEIGHT NEEDS SYNCHRONIZATION
